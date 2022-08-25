@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1661431943362" clover="3.2.0">
+  <project timestamp="1661431943362" name="All files">
+    <metrics statements="15" coveredstatements="10" conditionals="6" coveredconditionals="4" methods="6" coveredmethods="3" elements="27" coveredelements="17" complexity="0" loc="15" ncloc="15" packages="2" files="2" classes="2"/>
+    <package name="zest-test">
+      <metrics statements="5" coveredstatements="4" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <file name="stringLenth.js" path="/Users/saikatchakraborty/Desktop/zest-test/stringLenth.js">
+        <metrics statements="5" coveredstatements="4" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="3" type="cond" truecount="3" falsecount="1"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="zest-test.javaScript">
+      <metrics statements="10" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="5" coveredmethods="2"/>
+      <file name="calculator.js" path="/Users/saikatchakraborty/Desktop/zest-test/javaScript/calculator.js">
+        <metrics statements="10" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="5" coveredmethods="2"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
