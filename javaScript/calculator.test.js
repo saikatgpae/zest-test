@@ -6,11 +6,11 @@ describe('Add', () => {
   });
 
   test('Returns NAN', () => {
-    expect(calculator.add()).toBeNaN();
+    expect(calculator.add()).toBe('Please enter numbers only');
   });
 
   test('String can not be added', () => {
-    expect(calculator.add('string', 'string')).toThrow(Error);
+    expect(calculator.add('string', 'string')).toBe('Please enter numbers only');
   });
 });
 
@@ -20,38 +20,38 @@ describe('Substract', () => {
   });
 
   test('Returns NAN', () => {
-    expect(calculator.subtsract()).toBeNaN();
+    expect(calculator.subtsract()).toBe('Please enter numbers only');
   });
 
   test('String can not be added', () => {
-    expect(calculator.subtsract('string', 'string')).toThrow(Error);
-  });
-});
-
-describe('Multiply', () => {
-  test('Divide two numbers', () => {
-    expect(calculator.divide(6, 2)).toBe(3);
-  });
-
-  test('Returns NAN', () => {
-    expect(calculator.divide()).toBeNaN();
-  });
-
-  test('String can not be Divide', () => {
-    expect(calculator.divide('string', 'string')).toThrow(Error);
+    expect(calculator.subtsract('string', 'string')).toBe('Please enter numbers only');
   });
 });
 
 describe('Divide', () => {
-  test('Multiply two numbers', () => {
+  test('Divide two numbers', () => {
     expect(calculator.multiply(6, 2)).toBe(12);
   });
 
   test('Returns NAN', () => {
-    expect(calculator.multiply()).toBeNaN();
+    expect(calculator.multiply()).toBe('Please enter numbers only');
   });
 
   test('String can not be multiply', () => {
-    expect(calculator.multiply('string', 'string')).toThrow(Error);
+    expect(calculator.multiply('string', 'string')).toBe('Please enter numbers only');
+  });
+});
+
+describe('Multiply', () => {
+  test('Multiply two numbers', () => {
+    expect(calculator.divide(6, 2)).toBe(3);
+  });
+
+  test('Returns NAN', () => {
+    expect(calculator.divide()).toBe('Please enter numbers only');
+  });
+
+  test('String can not be Divide', () => {
+    expect(calculator.divide('string', 'string')).toBe('Please enter numbers only');
   });
 });

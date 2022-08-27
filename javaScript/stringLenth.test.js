@@ -9,5 +9,5 @@ test('Null String Lenth', () => {
 });
 
 test('More than 10 chrecter', () => {
-  expect(stringLength('stringstring')).not.toBeGreaterThan(10);
+  expect(stringLength('aaaaaaaaa')).not.toBeGreaterThan(10);
 });
